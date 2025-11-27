@@ -1,0 +1,8 @@
+(
+echo models/
+echo .idea/
+echo __pycache__/
+echo *.pyc
+echo .DS_Store
+echo .env
+) > .gitignore
