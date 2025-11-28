@@ -91,36 +91,9 @@ Displayed visually with a colored alert box
 
 
 
+    🛢️ Dataset
 
-
-📁 Project Structure
-Inappropriate Message Detection/
-│── app.py                        # Streamlit UI + Prediction logic
-│── requirements.txt              # Python dependencies
-│── README.md                     # Documentation
-│
-├── src/
-│   └── train_models.py           # ML model training pipeline
-│
-├── data/
-│   └── messages.csv              # Training dataset (comments + labels)
-│
-├── models/
-│   ├── logistic_model.joblib
-│   ├── decision_tree_model.joblib
-│   ├── random_forest_model.joblib
-│   └── tfidf_vectorizer.joblib
-│
-└── screenshots/
-    ├── input_ui.png
-    └── output_ui.png
-
-
-
-
-    🛢️ Dataset Format
-
-Your messages.csv should contain:
+   messages.csv
 
 
 🌐 Deployment (Streamlit Cloud)
